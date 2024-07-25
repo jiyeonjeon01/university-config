@@ -13,3 +13,11 @@ springdoc:
     operations-sorter: method
   paths-to-match:
   - /v1/**
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: 
+      defalut-zone: "http://${eureka.instance.hostname}:${server.port}/eureka/"
