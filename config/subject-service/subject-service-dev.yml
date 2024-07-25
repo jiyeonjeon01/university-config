@@ -6,4 +6,4 @@ logging:
     '[org.mybatis]': debug
     '[org.mariadb.jdbc.client.impl]': debug
 department-service:
-  base-url: http://localhost:8088/v1/department-service/departments
+  base-url: http://localhost:8088/v1/department-service/departments/
