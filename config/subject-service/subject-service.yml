@@ -15,3 +15,11 @@ springdoc:
   - /v1/**
 department-service:
   base-url: http://localhost:8080/v1/department-service/departments/
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defalue-zone: http://localhost:8761/eureka/
